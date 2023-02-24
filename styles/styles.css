@@ -11,14 +11,20 @@ body {
 }
 
 header {
-    background-color: grey;
+    background-color: black;
 }
 
-header .grid-layout {
+header .grid-layout { 
     width: 80%;
     margin: 0 auto;
-    background-color: yellowgreen
+    /* background-color: yellowgreen */
 
+
+}
+
+header .header-flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -33,4 +39,20 @@ header h1 #logoux {
     font-weight: 600;
     font-size: 30px;
 }
+
+nav {
+    /* border: 3px solid white; */
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
 
